@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.sub-menu {
+    /*  */
+    width: 100vw;
+    height: 0px;
+    background-color: #91aaaae7;
+    transition: all 0.6s ease-in-out;
+    /* overflow: hidden;
+    position: absolute; */
+    cursor: pointer;
+}
+
+.menu li:hover .sub-menu {
+    /* display: block */
+    height: 600px;
+    box-shadow: 0 0 16px rgba(43, 37, 37, 0.2);
+
+}
